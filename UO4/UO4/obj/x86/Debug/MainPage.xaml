@@ -1,0 +1,17 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="UO4.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UO4"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"                     
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:ConnectionId='2' Name="LayoutGrid" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:ConnectionId='3' x:Name="ClickMeButton" Content="Click me" Margin="232,155,0,0" VerticalAlignment="Top" FontSize="50" Height="214" Width="518"                            />
+        <TextBlock x:ConnectionId='4' x:Name="MessageTextBlock" HorizontalAlignment="Left" Margin="627,500,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Height="160" Width="537" FontSize="64"/>
+
+    </Grid>
+</Page>
+
