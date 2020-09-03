@@ -1,0 +1,1 @@
+C:\Users\User\source\repos\SS3_Lab04\NavigationExample\NavigationExample.csproj;x86
